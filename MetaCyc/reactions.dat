@@ -1,0 +1,162 @@
+# Copyright © 1996-2007 SRI International, Marine Biological Laboratory, DoubleTwist Inc., The Institute for Genomic Research, J. Craig Venter Institute, University of California at San Diego, and UNAM.  All Rights Reserved.
+#
+#
+# Please see the license agreement regarding the use of and distribution of this file.
+# The format of this file is defined at http://bioinformatics.ai.sri.com/ptools/flatfile-format.html .
+#
+# Species: E. coli K-12
+# Database: EcoCyc
+# Version: 11.5
+# File Name: reactions.dat
+# Date and time generated: August 6, 2007, 17:31:42
+#
+# Attributes:
+#    UNIQUE-ID
+#    TYPES
+#    COMMON-NAME
+#    ACTIVATORS
+#    BALANCE-STATE
+#    BASAL-TRANSCRIPTION-VALUE
+#    CITATIONS
+#    COMMENT
+#    CREDITS
+#    DATA-SOURCE
+#    DBLINKS
+#    DELTAG0
+#    DEPRESSORS
+#    EC-NUMBER
+#    ENZYMATIC-REACTION
+#    ENZYMES-NOT-USED
+#    EQUILIBRIUM-CONSTANT
+#    IN-PATHWAY
+#    INHIBITORS
+#    INSTANCE-NAME-TEMPLATE
+#    LEFT
+#    MEMBER-SORT-FN
+#    MOVED-IN
+#    MOVED-OUT
+#    OFFICIAL-EC?
+#    ORPHAN?
+#    PREDECESSORS
+#    PRIMARIES
+#    REACTANTS
+#    REACTION-LIST
+#    REGULATED-BY
+#    REQUIREMENTS
+#    RIGHT
+#    SIGNAL
+#    SPECIES
+#    SPONTANEOUS?
+#    STD-REDUCTION-POTENTIAL
+#    STIMULATORS
+#    SYNONYMS
+#
+UNIQUE-ID - RXN0-4701
+TYPES - Small-Molecule-Reactions
+COMMENT - This reaction is the exoribonucleolytic cleavage of purine ribonucleotides.
+ENZYMATIC-REACTION - ENZRXN0-5961
+//
+UNIQUE-ID - RXN0-3543
+TYPES - Small-Molecule-Reactions
+ENZYMATIC-REACTION - ENZRXN0-4983
+ENZYMATIC-REACTION - ENZRXN0-4982
+LEFT - AMINO-HYDROXYMETHYL-METHYLPYRIMIDINE-PP
+RIGHT - AMINO-HYDROXYMETHYL-METHYL-PYR-P
+RIGHT - |Pi|
+//
+UNIQUE-ID - PGLYCEROLTRANSII-RXN
+TYPES - Small-Molecule-Reactions
+COMMENT - This reaction transfers phosphoglycerol residues between MDO
+/molecules.
+ENZYMATIC-REACTION - PGLYCEROLTRANSII-ENZRXN
+LEFT - |MDO-6-Glycerophospho-D-Glucoses|
+LEFT - |MDO-D-Glucoses|
+RIGHT - |MDO-D-Glucoses|
+RIGHT - |MDO-6-Glycerophospho-D-Glucoses|
+//
+UNIQUE-ID - DSBBPROT-RXN
+TYPES - Small-Molecule-Reactions
+COMMENT - This reaction reoxidizes the disulfide bond of a disulfide
+/oxidoreductase.
+ENZYMATIC-REACTION - DSBBPROT-ENZRXN
+//
+UNIQUE-ID - UBIQUINOL-OX-RXN
+TYPES - Protein-Reactions
+IN-PATHWAY - ELECTRON-TRANSPORT-2
+LEFT - |Red-Ubiquinol-8-Oxidoreductases|
+LEFT - |Cytochromes-B|
+RIGHT - |Ox-Ubiquinone-8-Oxidoreductases|
+RIGHT - |Cytochromes-B-Reduced|
+SPECIES - Escherichia coli K-12
+//
+UNIQUE-ID - TRANS-2-DECENOYL-ACP-ISOM-RXN
+TYPES - Protein-Reactions
+BALANCE-STATE - :BALANCED
+COMMENT - Isomerization of products of dehydration.  One leads to
+/unsaturated fatty acids, the other to saturated fatty acids.
+ENZYMATIC-REACTION - TRANS-2-DECENOYL-ACP-ISOM-ENZRXN
+IN-PATHWAY - PWY0-862
+LEFT - TRANS-D2-DECENOYL-ACP
+RIGHT - CIS-DELTA3-DECENOYL-ACP
+//
+UNIQUE-ID - TORSASP-RXN
+TYPES - Protein-Reactions
+CITATIONS - [95214091]
+CITATIONS - [93128858]
+CITATIONS - [90206041]
+CITATIONS - [93272330]
+COMMENT - In this reaction the sensor kinase-phosphotransferase TorS undergoes 
+/intermolecular transphosphorylation. The phosphoryl group is transferred from
+/the histidine residue H443 to aspartate residue Asp723.
+COMMENT - Sensor kinase-phosphotransferase TorS is unusual in that in addition to the 
+/conserved transmitter domain, it also contains a receiver and C-terminal
+/alternative transmitter domain. The autophosphorylation site, histidine residue
+/H443 of the conserved transmitter domain, transfers the phosphoryl group to the
+/receiver phosphorylation site, aspartate D723. This is achieved through 
+/intermolecular phosphorylation between identical multimers of the complex.
+/|CITS: [97280783] [96405651] [21172890]|
+IN-PATHWAY - TOR-PWY
+LEFT - PHOSPHO-TORS
+RIGHT - PHOSPHO-TORASP
+SPECIES - Escherichia coli K-12
+//
+UNIQUE-ID - TORS850-RXN
+TYPES - Protein-Reactions
+CITATIONS - [95214091]
+CITATIONS - [93128858]
+CITATIONS - [90206041]
+CITATIONS - [93272330]
+COMMENT - In this reaction the sensor kinase-phosphotransferase TorS undergoes 
+/intermolecular transphosphorylation. The phosphoryl group is transferred
+/from the aspartate residue to the histidine 850 residue.
+COMMENT - Sensor kinase-phosphotransferase TorS is unusual in that in addition to the 
+/conserved transmitter domain, it also contains a receiver and a C-terminal 
+/alternative transmitter domain. The receiver phosphorylation site, aspartate 
+/D723, transfers the phosphoryl group to the alternative transmitter 
+/phosphorylation site, histidine H850. This is achieved through intermolecular
+/phosphorylation between identical multimers of the complex. The H850 
+/phosphorylation site is the phosphodonor site for the TorR response regulator.
+/|CITS: [97280783] [96405651]|
+IN-PATHWAY - TOR-PWY
+LEFT - PHOSPHO-TORASP
+RIGHT - PHOSPHO-TORS850
+SPECIES - Escherichia coli K-12
+//
+UNIQUE-ID - RXN0-947
+TYPES - Protein-Reactions
+CITATIONS - [12591875]
+ENZYMATIC-REACTION - ENZRXN0-1084
+IN-PATHWAY - PWY0-501
+LEFT - OCTANOYL-ACP
+LEFT - |Non-lipoylated-domains|
+RIGHT - |Octanoylated-domains|
+RIGHT - ACP
+//
+UNIQUE-ID - RXN0-1137
+TYPES - Protein-Reactions
+ENZYMATIC-REACTION - ENZRXN0-1310
+LEFT - |E2(O)-MONOMER|
+LEFT - LIPOYL-ACP
+RIGHT - SUCB-LIPOATE
+RIGHT - ACP
+//

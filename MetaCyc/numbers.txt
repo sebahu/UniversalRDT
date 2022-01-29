@@ -1,0 +1,16 @@
+Number of reactions from MetaCyc, which could be mapped by RDT without obvious errors:	5466
+Number of reactions from MetaCyc, which are mapped, but not identically by RDT:	760
+Number of reactions from MetaCyc containing C atoms, which are mapped by RDT:	5262
+Number of reactions from MetaCyc containing C atoms, which are mapped, but not identically by RDT:	502
+Number of reactions from MetaCyc containing O atoms, which are mapped by RDT:	5386
+Number of reactions from MetaCyc containing O atoms, which are mapped, but not identically by RDT:	494
+Number of reactions from MetaCyc containing N atoms, which are mapped by RDT:	2675
+Number of reactions from MetaCyc containing N atoms, which are mapped, but not identically by RDT:	51
+Number of reactions from ModelSEED in MetaCyc, which are mapped by RDT:	196
+Number of reactions from ModelSEED in ModelSEED, which are not identically mapped by RDT and in MetaCyc:	25
+Number of reactions from ModelSEED in MetaCyc containing C atoms, which are mapped by RDT:	196
+Number of reactions from ModelSEED in MetaCyc containing C atoms, which are mapped, but not identically by RDT:	13
+Number of reactions from ModelSEED in MetaCyc containing O atoms, which are mapped by RDT:	195
+Number of reactions from ModelSEED in MetaCyc containing O atoms, which are mapped, but not identically by RDT:	24
+Number of reactions from ModelSEED in MetaCyc containing N atoms, which are mapped by RDT:	125
+Number of reactions from ModelSEED in MetaCyc containing N atoms, which are mapped, but not identically by RDT:	1

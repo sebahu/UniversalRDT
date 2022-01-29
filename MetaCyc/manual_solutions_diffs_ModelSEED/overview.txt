@@ -1,0 +1,25 @@
+6PGLUCONOLACT-RXN	O	MetaCyc	MetaCyc probably right
+DAHPSYN-RXN	O	RDT	MetaCyc is now changed to the same mapping as RDT
+DIOHBUTANONEPSYN-RXN	C,O	MetaCyc	Manually curated in MetaCyc, with evidence from literary
+F16ALDOLASE-RXN	C,O,P	Unclear	Changed symmetry, both reasonable, no literary evidence
+FARNESYLTRANSTRANSFERASE-RXN	C,O,P	Unclear	Both involve the "move" of a C=C double bond, opposite result to RXN-11018
+HISTAMINOTRANS-RXN	C,O	MetaCyc	In MetaCyc it is an exchange of O vs Amino, RDT uses different/symmetric C atom
+IMIDPHOSDEHYD-RXN	O	MetaCyc	Two changes in RDT vs one in MetaCyc
+IMPCYCLOHYDROLASE-RXN	O	MetaCyc	Two changes in RDT vs one in MetaCyc
+IMP-DEHYDROG-RXN	O	MetaCyc	Two changes in RDT vs one in MetaCyc
+PGLUCISOM-RXN	C,O	RDT	C-O bond usually stronger than C-C
+PREPHENATE-TRANSAMINE-RXN	C,O	MetaCyc	In MetaCyc it is an exchange of O vs Amino, RDT uses different/symmetric C atom
+RXN-11018	C,O,P	Unclear	Both involve the "move" of a C=C double bond, opposite result to FARNESYLTRANSTRANSFERASE-RXN
+RXN-11019	C,O,P	Unclear	Both involve the "move" of a C=C double bond, opposite result to FARNESYLTRANSTRANSFERASE-RXN
+RXN-11020	C,O,P	Unclear	Both involve the "move" of a C=C double bond, opposite result to FARNESYLTRANSTRANSFERASE-RXN
+RXN-11021	C,O,P	Unclear	Both involve the "move" of a C=C double bond, opposite result to FARNESYLTRANSTRANSFERASE-RXN
+RXN-7770	C,O	Unclear	Different C-C bond is opened
+RXN-8442	C,O	RDT	In RDT it is an exchange of O vs Amino, MetaCyc involves more atoms
+RXN-9140	C,O	RDT	In RDT it is an exchange of O vs Amino, MetaCyc involves more atoms
+RXN-9196	C,O,N	MetaCyc	MetaCyc is just one replacement, RDT is an insertion
+RXN-9291	C	MetaCyc	MetaCyc is changing bonds, RDT moves a C atom
+RXN-9584	O	RDT	MetaCyc is now changed to the same mapping as RDT
+RXN-9613	C,O	RDT	RDT is changing bonds, MetaCyc moves an O atom
+SUCROSE-PHOSPHATASE-RXN	O	RDT	MetaCyc is now changed to the same mapping as RDT
+SUCROSE-PHOSPHATE-SYNTHASE-RXN	C,O	RDT	RDT is changing bonds, MetaCyc moves an O atom
+TRANSALDOL-RXN	C,O,P	RDT	RDT moves only one O atom, MetaCyc a group of 4
