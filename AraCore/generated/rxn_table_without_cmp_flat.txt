@@ -1,0 +1,550 @@
+2IPMS_h	M_H2O + M_A-CoA + M_MOB <=> M_H + M_CoA + M_2IPM 
+3IPMDA1_h	M_2IPM <=> M_H2O + M_IPM 
+3IPMDA2_h	M_H2O + M_IPM <=> M_3IPM 
+3IPMDH_h	M_NAD + M_3IPM <=> M_H + M_NADH + M_IPO 
+5M-THFOR_c	M_NADH + M_M-THF <=> M_NAD + M_5M-THF 
+6PGDHNAD_h	M_NAD + M_6PG --> M_CO2 + M_Ru5P + M_NADH 
+6PGDHNADP_h	M_NADP + M_6PG --> M_NADPH + M_CO2 + M_Ru5P 
+6PGL_h	M_H2O + M_GLP <=> M_H + M_6PG 
+ACDOxRed_c	M_H2O + M_NAD + M_ACD <=> M_H + M_NADH + M_AC 
+ACoAC_h	M_ATP + M_A-CoA + M_HCO3 <=> M_H + M_ADP + M_Pi + M_M-CoA 
+ACoAS_h	M_ATP + M_CoA + M_AC <=> M_H + M_PPi + M_AMP + M_A-CoA 
+ACPM_h	M_M-CoA + M_ACP <=> M_CoA + M_M-ACP 
+ADNK_c	M_ATP + M_ADN <=> M_ADP + M_H + M_AMP 
+ADNN_c	M_H2O + M_ADN <=> M_H + M_Rib + M_AD 
+ADPR_c	M_ADP + M_H + M_TRXrd <=> M_H2O + M_TRXox + M_dADP 
+ADPRPPT_c	M_AD + M_PRPP <=> M_PPi + M_AMP 
+AGluK	M_ATP + M_A-Glu <=> M_ADP + M_A-GluP 
+AGluPR_h	M_H + M_NADPH + M_A-GluP <=> M_NADP + M_Pi + M_A-Glu-SeA 
+AGNDA_h	M_H + M_AGN <=> M_H2O + M_CO2 + M_Phe 
+AGNDH_h	M_NADP + M_AGN <=> M_NADPH + M_CO2 + M_Tyr 
+AGPase_h	M_ATP + M_G1P <=> M_ADPG + M_PPi 
+AICARFT_h	M_F-THF + M_AICAR <=> M_H + M_H + M_THF + M_FAICAR 
+AIRC_h	M_CO2 + M_AIR <=> M_H + M_CAIR 
+AlaTA_h	M_Pyr + M_Glu --> M_KG + M_Ala 
+AlaTA_m	M_Pyr + M_Glu --> M_KG + M_Ala 
+AlaTA_p	M_Glu + M_Pyr --> M_KG + M_Ala 
+ALS1_h	M_H + M_Pyr + M_ThPP <=> M_CO2 + M_H-Eth-ThPP 
+ALS2_h	M_OB + M_H-Eth-ThPP <=> M_ThPP + M_AHB 
+ALS3_h	M_Pyr + M_H-Eth-ThPP <=> M_ThPP + M_AL 
+AMPDA_c	M_H + M_H2O + M_AMP <=> M_NH4 + M_IMP 
+AMPK_c	M_ATP + M_AMP <=> M_ADP + M_ADP 
+AMPK_h	M_ATP + M_AMP <=> M_ADP + M_ADP 
+AMT_m	M_amDHP + M_THF <=> M_DHP + M_M-THF + M_NH4 
+ANTPRT_h	M_PRPP + M_ANT <=> M_H + M_PPi + M_PR-ANT 
+ANTS_h	M_CHR + M_Gln <=> M_H + M_Pyr + M_Glu + M_ANT 
+AOrnAGluAcT_h	M_Glu + M_A-Orn <=> M_A-Glu + M_Orn 
+AOrnTA_h	M_Glu + M_A-Glu-SeA <=> M_KG + M_A-Orn 
+APSR_h	M_APS + M_GSH + M_GSH <=> M_H + M_AMP + M_SO3 + M_GSSG 
+Arginase_m	M_H + M_H2O + M_Arg <=> M_Orn + M_urea 
+ArgSCAL_h	M_Arg-SCA <=> M_Arg + M_Fum 
+ArgSCAS_h	M_ATP + M_CTL + M_Asp <=> M_H + M_H + M_H + M_PPi + M_AMP + M_Arg-SCA 
+Asnase_c	M_H2O + M_Asn <=> M_Asp + M_NH4 
+AsnS_c	M_ATP + M_H2O + M_Gln + M_Asp <=> M_H + M_PPi + M_AMP + M_Glu + M_Asn 
+AspAT_c	M_OAA + M_Glu --> M_KG + M_Asp 
+AspAT_h	M_OAA + M_Glu --> M_KG + M_Asp 
+AspAT_m	M_OAA + M_Glu --> M_KG + M_Asp 
+AspAT_p	M_Glu + M_OAA --> M_KG + M_Asp 
+AspCT_h	M_CBP + M_Asp <=> M_Pi + M_CB-Asp 
+AspK_h	M_ATP + M_Asp <=> M_ADP + M_AspP 
+Asp-SeADH_h	M_H + M_NADPH + M_AspP <=> M_NADP + M_Pi + M_Asp-SeA 
+ATase_h	M_H2O + M_PRPP + M_Gln <=> M_H + M_PPi + M_Glu + M_PRA 
+ATPase_h	M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_ADP + M_ADP + M_ADP + M_Pi + M_Pi + M_Pi --> M_H2O + M_H2O + M_H2O + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_ATP + M_ATP + M_ATP 
+ATPCitL_c	M_ATP + M_Cit + M_CoA <=> M_ADP + M_Pi + M_OAA + M_A-CoA 
+ATPPRT_h	M_ATP + M_PRPP <=> M_H + M_PPi + M_PR-ATP 
+ATPSL_h	M_ATP + M_SO4 <=> M_PPi + M_APS 
+BAATA1_h	M_Glu + M_MOP --> M_KG + M_Ile 
+BAATA2_h	M_Glu + M_4MOP --> M_KG + M_Leu 
+BAATA3_h	M_Glu + M_MOB --> M_KG + M_Val 
+bAMY1_h	M_H2O + M_starch5 <=> M_starch3 + M_Mas 
+bAMY2_h	M_H2O + M_starch3 <=> M_starch1 + M_Mas 
+Bio_AA	M_Gln + M_Asp + M_Glu + M_Asn + M_Ser + M_Cys + M_Thr + M_Gly + M_Met + M_Pro + M_Ala + M_Arg + M_Lys + M_His + M_Ile + M_Leu + M_Phe + M_Trp + M_Tyr + M_Val 
+Bio_CLim	(227.3467) M_starch2 + (2.2774) M_Mas + (33.8494) M_Glc + (0.58559) M_ATP + (0.61307) M_UTP + (45.3982) M_Suc + (14.7742) M_Frc + (1.1582) M_Tre + (363.8831) M_cellulose2 + (1.302) M_SCA + (77.5839) M_Fum + (38.112) M_Mal + (0.31189) M_SA + (779.9704) M_M-ACP + (14.6073) M_Orn + (45.7267) M_Gln + (90.6841) M_Asp + (103.3762) M_Glu + (61.8204) M_Asn + (132.7822) M_Ser + (27.9121) M_Cys + (0.15305) M_GABA + (125.4288) M_Thr + (245.7697) M_Gly + (30.3798) M_Met + (5.5316) M_urea + (96.8832) M_Pro + (0.49638) M_CTP + (0.40478) M_GTP + (0.68091) M_dATP + (0.40366) M_dCTP + (0.37141) M_dGTP + (0.69281) M_dTTP + (207.4609) M_Ala + (64.1977) M_Arg + (92.8976) M_Lys + (29.8197) M_His + (80.5717) M_Ile + (142.4216) M_Leu + (59.6508) M_Phe + (15.0859) M_Trp + (42.3346) M_Tyr + (131.2126) M_Val <=> (2673.89) M_H + (779.9704) M_ACP 
+Bio_NLim	(335.5427) M_starch2 + (5.3796) M_Mas + (23.5392) M_Glc + (0.62086) M_ATP + (0.65) M_UTP + (87.0151) M_Suc + (10.6691) M_Frc + (2.8244) M_Tre + (363.8831) M_cellulose2 + (1.6299) M_SCA + (11.5874) M_Fum + (10.8986) M_Mal + (0.19059) M_SA + (826.9565) M_M-ACP + (9.6468) M_Orn + (84.1204) M_Gln + (154.4894) M_Asp + (176.8947) M_Glu + (110.8501) M_Asn + (224.0232) M_Ser + (47.3624) M_Cys + (0.58323) M_GABA + (204.6156) M_Thr + (415.1578) M_Gly + (51.8182) M_Met + (10.3653) M_urea + (164.0033) M_Pro + (0.52628) M_CTP + (0.42916) M_GTP + (0.72193) M_dATP + (0.42798) M_dCTP + (0.39378) M_dGTP + (0.73455) M_dTTP + (351.0163) M_Ala + (142.5347) M_Arg + (159.1072) M_Lys + (50.5994) M_His + (136.8419) M_Ile + (241.7435) M_Leu + (101.6565) M_Phe + (26.6481) M_Trp + (71.7365) M_Tyr + (222.6177) M_Val <=> (5581.92) M_H + (826.9565) M_ACP 
+Bio_opt	(294.8616) M_starch2 + (2.6096) M_Mas + (18.4787) M_Glc + (0.58559) M_ATP + (0.61307) M_UTP + (30.6684) M_Suc + (12.0349) M_Frc + (0.57736) M_Tre + (363.8831) M_cellulose2 + (0.98709) M_SCA + (67.2073) M_Fum + (50.9964) M_Mal + (0.37924) M_SA + (779.9704) M_M-ACP + (1.5865) M_Orn + (51.2643) M_Gln + (101.038) M_Asp + (116.394) M_Glu + (70.5431) M_Asn + (147.4985) M_Ser + (31.1176) M_Cys + (0.09401) M_GABA + (136.6831) M_Thr + (273.4827) M_Gly + (33.615) M_Met + (2.8404) M_urea + (108.0369) M_Pro + (0.49638) M_CTP + (0.40478) M_GTP + (0.68091) M_dATP + (0.40366) M_dCTP + (0.37141) M_dGTP + (0.69281) M_dTTP + (230.671) M_Ala + (74.6825) M_Arg + (103.5935) M_Lys + (33.2443) M_His + (89.8269) M_Ile + (158.7712) M_Leu + (66.6617) M_Phe + (16.871) M_Trp + (47.0292) M_Tyr + (146.2688) M_Val <=> (3125.54) M_H + (779.9704) M_ACP 
+cACNDHA_c	M_Cit <=> M_H2O + M_cACN 
+cACNDHA_h	M_Cit <=> M_H2O + M_cACN 
+cACNDHA_m	M_Cit <=> M_H2O + M_cACN 
+cACNHA_c	M_H2O + M_cACN <=> M_iCit 
+cACNHA_h	M_H2O + M_cACN <=> M_iCit 
+cACNHA_m	M_H2O + M_cACN <=> M_iCit 
+CAT_h	M_H2O2 + M_H2O2 <=> M_H2O + M_H2O + M_O2 
+CAT_p	M_H2O2 + M_H2O2 <=> M_O2 + M_H2O + M_H2O 
+CBPS_h	M_H2O + M_ATP + M_ATP + M_HCO3 + M_Gln <=> M_H + M_H + M_H + M_ADP + M_ADP + M_Pi + M_Glu + M_CBP 
+CDPR_c	M_TRXrd + M_CDP <=> M_H2O + M_TRXox + M_dCDP 
+CeS_c1	M_H2O + M_UDPG <=> M_UDP + M_cellulose1 
+CeS_c2	M_UDPG + M_cellulose1 <=> M_UDP + M_cellulose2 
+CeS_c3	M_UDPG + M_cellulose2 <=> M_UDP + M_cellulose3 
+CHRM_c	M_CHR <=> M_PRE 
+CHRS_h	M_EPSP <=> M_Pi + M_CHR 
+CitS_c	M_H2O + M_OAA + M_A-CoA <=> M_H + M_Cit + M_CoA 
+CitS_h	M_H2O + M_OAA + M_A-CoA <=> M_H + M_Cit + M_CoA 
+CitS_m	M_A-CoA + M_OAA + M_H2O <=> M_H + M_CoA + M_Cit 
+cplx1_m	M_H + M_H + M_H + M_H + M_H + M_NADH + M_Q <=> M_NAD + M_QH2 + M_H + M_H + M_H + M_H 
+cplx2_m	M_SCA + M_Q <=> M_Fum + M_QH2 
+cplx3_m	M_H + M_H + M_QH2 + M_Cytcox + M_Cytcox <=> M_Q + M_H + M_H + M_H + M_H + M_Cytcrd + M_Cytcrd 
+cplx4_m	M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_Cytcrd + M_Cytcrd + M_Cytcrd + M_Cytcrd + M_O2 <=> M_H2O + M_H2O + M_H + M_H + M_H + M_H + M_Cytcox + M_Cytcox + M_Cytcox + M_Cytcox 
+cplx5_m	M_ADP + M_Pi + M_H + M_H + M_H + M_H --> M_H + M_H + M_H + M_H2O + M_ATP 
+CTHL_h	M_H2O + M_CTH <=> M_Pyr + M_NH4 + M_H-Cys 
+CTHS_h	M_Cys + M_PH-Ser <=> M_Pi + M_CTH 
+CTPP_c	M_H2O + M_CTP <=> M_Pi + M_CDP 
+CTPS_c	M_ATP + M_H2O + M_UTP + M_Gln <=> M_ADP + M_H + M_H + M_Pi + M_Glu + M_CTP 
+Cysase_c	M_H2O + M_aH-Cys --> M_ADN + M_H-Cys 
+CysS_c	M_A-Ser + M_H2S <=> M_H + M_Cys + M_AC 
+CysS_h	M_H2S + M_A-Ser <=> M_H + M_AC + M_Cys 
+CysS_m	M_A-Ser + M_H2S <=> M_H + M_Cys + M_AC 
+Cytb6f_h	M_H + M_H + M_PQH2 + M_PCox + M_PCox <=> M_PQ + M_H + M_H + M_H + M_H + M_PCrd + M_PCrd 
+dADPK_c	M_ATP + M_dADP <=> M_ADP + M_dATP 
+DAHPS_h	M_H2O + M_E4P + M_PEP <=> M_Pi + M_DAHP 
+DAPAT_h	M_H2O + M_H + M_Glu + M_THD <=> M_KG + M_DAP 
+DAPDC_h	M_H + M_mDAP <=> M_CO2 + M_Lys 
+DAPE_h	M_DAP <=> M_mDAP 
+DCAMPL1_h	M_H + M_SAICAR <=> M_Fum + M_AICAR 
+DCAMPL2_h	M_DC-AMP <=> M_AMP + M_Fum 
+DCAMPS_h	M_Asp + M_IMP + M_GTP <=> M_H + M_Pi + M_DC-AMP + M_GDP 
+dCDPK_c	M_ATP + M_dCDP <=> M_ADP + M_dCTP 
+dGDPK_c	M_ATP + M_dGDP <=> M_ADP + M_dGTP 
+DHADA1_h	M_DHMP <=> M_H2O + M_MOP 
+DHADA2_h	M_DHMB <=> M_H2O + M_MOB 
+DHDRNAD_h	M_H + M_NADH + M_DHD <=> M_NAD + M_THD 
+DHDRNADP_h	M_H + M_NADPH + M_DHD <=> M_NADP + M_THD 
+DHDS_h	M_Pyr + M_Asp-SeA <=> M_H2O + M_H2O + M_H + M_DHD 
+DHFR_c	M_NADPH + M_DHF <=> M_NADP + M_THF 
+DHLAcT_m	M_A-DHL + M_CoA <=> M_A-CoA + M_DHL 
+DHLDH1_m	M_NAD + M_DHP <=> M_H + M_NADH + M_LPL 
+DHLDH2_m	M_DHL + M_NAD <=> M_H + M_LPA + M_NADH 
+DHLST_m	M_CoA + M_S-DHL <=> M_DHL + M_S-CoA 
+DHOase_h	M_CB-Asp <=> M_H2O + M_DHO 
+DHODH_m	M_H + M_Q + M_DHO <=> M_QH2 + M_ORO 
+DHQDH_h	M_DHQ <=> M_H2O + M_DHS 
+DHQS_h	M_DAHP <=> M_Pi + M_DHQ 
+DPE11_h	M_starch3 + M_starch3 <=> M_starch5 + M_Glc 
+DPE12_h	M_starch1 + M_Mas <=> M_starch2 + M_Glc 
+DPE13_h	M_starch2 + M_Mas <=> M_starch3 + M_Glc 
+DPE2_c	M_starch1 + M_Mas <=> M_starch2 + M_Glc 
+dTDPK_c	M_ATP + M_dTDP <=> M_ADP + M_dTTP 
+dTMPK_c	M_ATP + M_H + M_dTMP <=> M_ADP + M_dTDP 
+dTMPS_c	M_M-THF + M_dUMP <=> M_DHF + M_dTMP 
+dUDPK_c	M_ATP + M_dUDP <=> M_ADP + M_dUTP 
+dUTPP_c	M_H2O + M_dUTP <=> M_H + M_H + M_PPi + M_dUMP 
+Enol_c	M_H2O + M_PEP --> M_2PGA 
+Enol_h	M_2PGA --> M_H2O + M_PEP 
+EPSPS_h	M_PEP + M_S3P <=> M_Pi + M_EPSP 
+Ex_Ala_c	M_Ala 
+Ex_Ala_h	M_Ala 
+Ex_Ala_m	M_Ala 
+Ex_Ala_p	M_Ala 
+Ex_Arg_c	M_Arg 
+Ex_Arg_h	M_Arg 
+Ex_Arg_m	M_Arg 
+Ex_Arg_p	M_Arg 
+Ex_Asn_c	M_Asn 
+Ex_Asn_h	M_Asn 
+Ex_Asn_m	M_Asn 
+Ex_Asn_p	M_Asn 
+Ex_Asp_c	M_Asp 
+Ex_Asp_h	M_Asp 
+Ex_Asp_m	M_Asp 
+Ex_Asp_p	M_Asp 
+Ex_cellulose	M_cellulose3 
+Ex_Cys_c	M_Cys 
+Ex_Cys_h	M_Cys 
+Ex_Cys_m	M_Cys 
+Ex_Cys_p	M_Cys 
+Ex_Frc	M_Frc 
+Ex_Glc	M_Glc 
+Ex_Gln_c	M_Gln 
+Ex_Gln_h	M_Gln 
+Ex_Gln_m	M_Gln 
+Ex_Gln_p	M_Gln 
+Ex_Glu_c	M_Glu 
+Ex_Glu_h	M_Glu 
+Ex_Glu_m	M_Glu 
+Ex_Glu_p	M_Glu 
+Ex_Gly_c	M_Gly 
+Ex_Gly_h	M_Gly 
+Ex_Gly_m	M_Gly 
+Ex_Gly_p	M_Gly 
+Ex_His_c	M_His 
+Ex_His_h	M_His 
+Ex_His_m	M_His 
+Ex_His_p	M_His 
+Ex_Ile_c	M_Ile 
+Ex_Ile_h	M_Ile 
+Ex_Ile_m	M_Ile 
+Ex_Ile_p	M_Ile 
+Ex_Leu_c	M_Leu 
+Ex_Leu_h	M_Leu 
+Ex_Leu_m	M_Leu 
+Ex_Leu_p	M_Leu 
+Ex_Lys_c	M_Lys 
+Ex_Lys_h	M_Lys 
+Ex_Lys_m	M_Lys 
+Ex_Lys_p	M_Lys 
+Ex_MACP	M_M-ACP <=> M_H + M_ACP 
+Ex_Mas	M_Mas 
+Ex_Met_c	M_Met 
+Ex_Met_h	M_Met 
+Ex_Met_m	M_Met 
+Ex_Met_p	M_Met 
+Ex_O2	M_O2 
+Ex_Phe_c	M_Phe 
+Ex_Phe_h	M_Phe 
+Ex_Phe_m	M_Phe 
+Ex_Phe_p	M_Phe 
+Ex_Pro_c	M_Pro 
+Ex_Pro_h	M_Pro 
+Ex_Pro_m	M_Pro 
+Ex_Pro_p	M_Pro 
+Ex_Ser_c	M_Ser 
+Ex_Ser_h	M_Ser 
+Ex_Ser_m	M_Ser 
+Ex_Ser_p	M_Ser 
+Ex_starch	M_starch3 
+Ex_Suc	M_Suc 
+Ex_Thr_c	M_Thr 
+Ex_Thr_h	M_Thr 
+Ex_Thr_m	M_Thr 
+Ex_Thr_p	M_Thr 
+Ex_Tre	M_Tre 
+Ex_Trp_c	M_Trp 
+Ex_Trp_h	M_Trp 
+Ex_Trp_m	M_Trp 
+Ex_Trp_p	M_Trp 
+Ex_Tyr_c	M_Tyr 
+Ex_Tyr_h	M_Tyr 
+Ex_Tyr_m	M_Tyr 
+Ex_Tyr_p	M_Tyr 
+Ex_Val_c	M_Val 
+Ex_Val_h	M_Val 
+Ex_Val_m	M_Val 
+Ex_Val_p	M_Val 
+F26BPPh_c	M_H2O + M_F26BP --> M_Pi + M_F6P 
+F6PK1_c	M_ATP + M_F6P <=> M_ADP + M_H + M_FBP 
+F6PK1_h	M_ATP + M_F6P <=> M_H + M_ADP + M_FBP 
+F6PK2_c	M_ATP + M_F6P <=> M_ADP + M_H + M_F26BP 
+FBPA_c	M_GAP + M_DHAP --> M_FBP 
+FBPA_h	M_GAP + M_DHAP --> M_FBP 
+FBPase_c	M_FBP + M_H2O <=> M_Pi + M_F6P 
+FBPase_h	M_H2O + M_FBP <=> M_Pi + M_F6P 
+Fd-NADPR_h	M_H + M_Fdrd + M_Fdrd + M_NADP <=> M_Fdox + M_Fdox + M_NADPH 
+FGAMCL_h	M_ATP + M_FGAM <=> M_H + M_ADP + M_Pi + M_AIR 
+FGAMS_h	M_H2O + M_ATP + M_Gln + M_FGAR <=> M_H + M_H + M_ADP + M_Pi + M_Glu + M_FGAM 
+ForDH_h	M_CO2 + M_NADH --> M_NAD + M_For 
+ForTHFL_h	M_H + M_ATP + M_For + M_THF <=> M_ADP + M_Pi + M_F-THF 
+FrcFD_c	M_H2O + M_Suc <=> M_Glc + M_Frc 
+FrcK_c	M_ATP + M_Frc <=> M_ADP + M_H + M_F6P 
+FTK_h	M_GAP + M_F6P --> M_E4P + M_X5P 
+FumHA_c	M_H2O + M_Fum <=> M_Mal 
+FumHA_m	M_H2O + M_Fum <=> M_Mal 
+G6PDH_h	M_NADP + M_G6P <=> M_H + M_NADPH + M_GLP 
+GABATA1_m	M_Pyr + M_GABA --> M_Ala + M_SCA-SeA 
+GABATA2_m	M_KG + M_GABA <=> M_Glu + M_SCA-SeA 
+GAPDH1_h	M_H + M_NADPH + M_DPGA <=> M_NADP + M_Pi + M_GAP 
+GAPDH2_c	M_Pi + M_GAP + M_NAD --> M_NADH + M_DPGA 
+GAPDH2_h	M_Pi + M_GAP + M_NAD --> M_H + M_DPGA + M_NADH 
+GAPDH3_c	M_GAP + M_H2O + M_NADP <=> M_H + M_PGA + M_NADPH 
+GARFT_h	M_F-THF + M_GAR <=> M_H + M_H + M_THF + M_FGAR 
+GCAO_h	M_O2 + M_GCA <=> M_GLX + M_H2O2 
+GCAO_p	M_GCA + M_O2 <=> M_GLX + M_H2O2 
+GCEADH_h	M_H + M_NADH + M_HPR <=> M_NAD + M_GCEA 
+GCEADH_p	M_HPR + M_NADH + M_H <=> M_GCEA + M_NAD 
+GCEAK_h	M_ATP + M_GCEA <=> M_H + M_ADP + M_PGA 
+GDPK_c	M_ATP + M_GDP <=> M_ADP + M_H + M_GTP 
+GDPK_h	M_ATP + M_GDP <=> M_H + M_ADP + M_GTP 
+GDPR_c	M_TRXrd + M_GDP <=> M_H2O + M_TRXox + M_dGDP 
+GGAT_h	M_Glu + M_GLX <=> M_KG + M_Gly 
+GGAT_p	M_GLX + M_Glu <=> M_Gly + M_KG 
+Glnase_c	M_H2O + M_Gln <=> M_Glu + M_NH4 
+GlnS_c	M_ATP + M_Glu + M_NH4 <=> M_ADP + M_H + M_Pi + M_Gln 
+GlnS_h	M_ATP + M_NH4 + M_Glu <=> M_H + M_ADP + M_Pi + M_Gln 
+GlnS_m	M_ATP + M_NH4 + M_Glu <=> M_H + M_ADP + M_Pi + M_Gln 
+GluDC_c	M_H + M_Glu <=> M_CO2 + M_GABA 
+GluDH1NAD_m	M_H + M_NADH + M_KG + M_NH4 <=> M_NAD + M_H2O + M_Glu 
+GluDH1NADP_m	M_H + M_KG + M_NH4 + M_NADPH --> M_H2O + M_NADP + M_Glu 
+GluDH2NAD_m	M_NAD + M_H2O + M_Glu <=> M_H + M_NADH + M_KG + M_NH4 
+GluDH3NADP_c	M_H2O + M_NADP + M_Glu --> M_NADPH + M_KG + M_NH4 
+GluK_c	M_ATP + M_Glu <=> M_ADP + M_GluP 
+GluK_h	M_ATP + M_Glu <=> M_ADP + M_GluP 
+GluK_m	M_ATP + M_Glu <=> M_ADP + M_GluP 
+GluSeADA_c	M_Glu-SeA <=> M_H + M_H2O + M_P5C 
+GluSeADA_h	M_Glu-SeA <=> M_H2O + M_H + M_P5C 
+GluSeADA_m	M_Glu-SeA <=> M_H + M_H2O + M_P5C 
+GluSeADH_c	M_NADPH + M_GluP <=> M_Pi + M_NADP + M_Glu-SeA 
+GluSeADH_h	M_H + M_NADPH + M_GluP <=> M_NADP + M_Pi + M_Glu-SeA 
+GluSeADH_m	M_H + M_NADPH + M_GluP <=> M_Pi + M_NADP + M_Glu-SeA 
+GluSFd_h	M_H + M_H + M_Fdrd + M_Fdrd + M_KG + M_Gln <=> M_Fdox + M_Fdox + M_Glu + M_Glu 
+GluSNAD_h	M_H + M_NADH + M_KG + M_Gln <=> M_NAD + M_Glu + M_Glu 
+GluSNADP_h	M_H + M_NADPH + M_KG + M_Gln --> M_NADP + M_Glu + M_Glu 
+GlyDH_m	M_H + M_Gly + M_LPL <=> M_CO2 + M_amDHP 
+GlyHMT_c	M_H2O + M_Gly + M_M-THF --> M_THF + M_Ser 
+GlyHMT_m	M_H2O + M_Gly + M_M-THF --> M_THF + M_Ser 
+GMPK_c	M_ATP + M_H + M_GMP <=> M_ADP + M_GDP 
+GMPS_c	M_ATP + M_H2O + M_Gln + M_XMP <=> M_H + M_PPi + M_AMP + M_Glu + M_GMP 
+GPAT_h	M_Glu + M_PRE --> M_KG + M_AGN 
+GSSGR_h	M_H + M_NADPH + M_GSSG <=> M_NADP + M_GSH + M_GSH 
+HCO3DHA_c	M_H2O + M_CO2 <=> M_H + M_HCO3 
+HCO3DHA_h	M_H2O + M_CO2 <=> M_H + M_HCO3 
+HCysMT_c	M_H-Cys + M_aMet <=> M_Met + M_aH-Cys 
+HEXK_c	M_Glc + M_ATP <=> M_G6P + M_ADP + M_H 
+HisalPDH_h	M_H2O + M_NAD + M_Hisal <=> M_H + M_NADH + M_His 
+HisolPDH_h	M_NAD + M_Hisol <=> M_H + M_H + M_NADH + M_Hisal 
+HisolPP_h	M_H2O + M_Hisol-P <=> M_Pi + M_Hisol 
+HisolPTA_h	M_Glu + M_IA-P <=> M_KG + M_Hisol-P 
+HSerDHNAD_h	M_H + M_NADH + M_Asp-SeA <=> M_NAD + M_H-Ser 
+HSerDHNADP_h	M_H + M_NADPH + M_Asp-SeA <=> M_NADP + M_H-Ser 
+HSerK_h	M_ATP + M_H-Ser <=> M_H + M_ADP + M_PH-Ser 
+iCitDHNAD_c	M_H + M_NAD + M_iCit <=> M_NADH + M_CO2 + M_KG 
+iCitDHNAD_m	M_NAD + M_iCit <=> M_CO2 + M_NADH + M_KG 
+iCitDHNADP_c	M_H + M_NADP + M_iCit <=> M_CO2 + M_NADPH + M_KG 
+iCitDHNADP_h	M_NADP + M_iCit <=> M_NADPH + M_CO2 + M_KG 
+iCitDHNADP_m	M_iCit + M_NADP <=> M_CO2 + M_KG + M_NADPH 
+iCitL_c	M_iCit <=> M_GLX + M_SCA 
+IGPDA_h	M_EIGP <=> M_H2O + M_IA-P 
+IGPS_h	M_Gln + M_Pu-AICAR-P <=> M_Glu + M_EIGP + M_AICAR 
+Im_CO2	M_CO2 
+Im_H2O	M_H2O 
+Im_H2S	M_H2S 
+Im_hnu	M_hnu 
+Im_NH4	M_NH4 
+Im_NO3	M_ATP + M_ATP + M_H2O + M_H2O <=> M_ADP + M_ADP + M_H + M_H + M_Pi + M_Pi + M_NO3 
+IMPCH_h	M_FAICAR <=> M_H2O + M_IMP 
+IMPDH_c	M_H2O + M_NAD + M_IMP <=> M_NADH + M_XMP 
+Im_Pi	M_ATP + M_ATP + M_ATP + M_H2O + M_H2O + M_H2O <=> M_H + M_H + M_Pi + M_ADP + M_ADP + M_ADP + M_Pi + M_Pi + M_Pi 
+Im_SO4	M_ATP + M_ATP + M_ATP + M_H2O + M_H2O + M_H2O <=> M_ADP + M_ADP + M_ADP + M_H + M_H + M_H + M_Pi + M_Pi + M_Pi + M_SO4 
+IndGPL_h	M_Ind-GP <=> M_GAP + M_Ind 
+IndGPS_h	M_H + M_CPD-Ru5P <=> M_H2O + M_CO2 + M_Ind-GP 
+IPODC_h	M_H + M_IPO <=> M_CO2 + M_4MOP 
+KARI1_h	M_AHB --> M_HMOP 
+KARI2_h	M_H + M_NADPH + M_HMOP <=> M_NADP + M_DHMP 
+KARI3_h	M_AL --> M_HMOB 
+KARI4_h	M_H + M_NADPH + M_HMOB <=> M_NADP + M_DHMB 
+KGDH_m	M_H + M_LPA + M_KG <=> M_CO2 + M_S-DHL 
+MalDH1_c	M_Mal + M_NAD --> M_OAA + M_NADH 
+MalDH1_h	M_NAD + M_Mal --> M_H + M_NADH + M_OAA 
+MalDH1_m	M_NAD + M_Mal --> M_H + M_NADH + M_OAA 
+MalDH1_p	M_NAD + M_Mal --> M_NADH + M_H + M_OAA 
+MalDH2NADP_c	M_H + M_Mal + M_NADP <=> M_CO2 + M_NADPH + M_Pyr 
+MalDH2NADP_h	M_NADP + M_Mal <=> M_NADPH + M_CO2 + M_Pyr 
+MalDH3_c	M_OAA + M_NADPH <=> M_Mal + M_NADP 
+MalDH3_h	M_H + M_NADPH + M_OAA <=> M_NADP + M_Mal 
+MalDH3_m	M_H + M_OAA + M_NADPH <=> M_Mal + M_NADP 
+MalS_c	M_H2O + M_A-CoA + M_GLX <=> M_H + M_Mal + M_CoA 
+MetAdT_h	M_ATP + M_H2O + M_Met <=> M_H + M_Pi + M_PPi + M_aMet 
+MetS_c	M_5M-THF + M_H-Cys <=> M_THF + M_Met 
+NGAM_c	M_ATP + M_H2O <=> M_ADP + M_H + M_Pi 
+NGAM_h	M_H2O + M_ATP <=> M_H + M_ADP + M_Pi 
+NGAM_m	M_H2O + M_ATP <=> M_H + M_ADP + M_Pi 
+NMPK_c	M_ATP + M_H + M_UMP <=> M_ADP + M_UDP 
+NO2R_h	M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_Fdrd + M_Fdrd + M_Fdrd + M_Fdrd + M_Fdrd + M_Fdrd + M_NO2 <=> M_H2O + M_H2O + M_Fdox + M_Fdox + M_Fdox + M_Fdox + M_Fdox + M_Fdox + M_NH4 
+NO3R1_c	M_NADH + M_NO3 <=> M_H2O + M_NAD + M_NO2 
+NO3R2_c	M_NADPH + M_NO3 --> M_H2O + M_NADP + M_NO2 
+OMPDC_c	M_H + M_OMP <=> M_CO2 + M_UMP 
+OrnAT_m	M_KG + M_Orn --> M_Glu + M_Glu-SeA 
+OrnCMT_h	M_H + M_Orn + M_CBP --> M_Pi + M_CTL 
+OROPRT_c	M_PRPP + M_ORO <=> M_H + M_PPi + M_OMP 
+P5CDHNAD_h	M_H2O + M_H2O + M_NAD + M_P5C <=> M_H + M_NADH + M_Glu 
+P5CDHNAD_m	M_NAD + M_H2O + M_H2O + M_P5C <=> M_H + M_NADH + M_Glu 
+P5CDHNADP_m	M_H2O + M_H2O + M_NADP + M_P5C <=> M_H + M_NADPH + M_Glu 
+P5CRNAD_c	M_H + M_NADH + M_P5C <=> M_NAD + M_Pro 
+PAICARPI_h	M_P-AICAR-P <=> M_Pu-AICAR-P 
+PEPC1_c	M_ATP + M_OAA <=> M_ADP + M_PEP + M_CO2 
+PEPC2_c	M_Pi + M_OAA --> M_PEP + M_HCO3 
+PGADH_h	M_PGA + M_NAD --> M_H + M_NADH + M_P-HPR 
+PGAK_c	M_ATP + M_PGA --> M_ADP + M_DPGA 
+PGAK_h	M_ATP + M_PGA --> M_ADP + M_DPGA 
+PGAM_c	M_2PGA --> M_PGA 
+PGAM_h	M_PGA --> M_2PGA 
+PGI_c	M_F6P --> M_G6P 
+PGI_h	M_F6P --> M_G6P 
+PGM_c	M_G6P --> M_G1P 
+PGM_h	M_G6P --> M_G1P 
+PGP_h	M_H2O + M_PGCA <=> M_Pi + M_GCA 
+PPIase_c	M_H2O + M_PPi <=> M_H + M_Pi + M_Pi 
+PPiase_h	M_H2O + M_PPi <=> M_Pi + M_Pi 
+PPIF6PK_c	M_F6P + M_PPi --> M_H + M_Pi + M_FBP 
+PRAGlyL_h	M_ATP + M_Gly + M_PRA <=> M_H + M_ADP + M_Pi + M_GAR 
+PrAMPCy_h	M_H2O + M_PR-AMP <=> M_P-AICAR-P 
+PRANTI_h	M_PR-ANT <=> M_CPD-Ru5P 
+PrATPDP_h	M_H2O + M_PR-ATP <=> M_H + M_H + M_PPi + M_PR-AMP 
+ProDHNAD_m	M_NAD + M_Pro <=> M_H + M_H + M_NADH + M_P5C 
+ProDHNADP_m	M_NADP + M_Pro <=> M_H + M_H + M_NADPH + M_P5C 
+PSerAT_h	M_Glu + M_P-HPR <=> M_KG + M_PSer 
+PSerP_h	M_H2O + M_PSer <=> M_Pi + M_Ser 
+PSI_h	M_hnu + M_PCrd + M_Fdox <=> M_PCox + M_Fdrd 
+PSII_h	M_hnu + M_hnu + M_hnu + M_hnu + M_PQ + M_PQ + M_H2O + M_H2O + M_H + M_H + M_H + M_H <=> M_PQH2 + M_PQH2 + M_O2 + M_H + M_H + M_H + M_H 
+PyrDH1_m	M_Pyr + M_ThPP + M_H <=> M_H-Eth-ThPP + M_CO2 
+PyrDH2_m	M_H-Eth-ThPP + M_LPA <=> M_ThPP + M_A-DHL 
+PyrK_c	M_ADP + M_H + M_PEP <=> M_ATP + M_Pyr 
+PyrK_h	M_H + M_ADP + M_PEP <=> M_ATP + M_Pyr 
+PyrPiDK_h	M_Pi + M_ATP + M_Pyr --> M_H + M_H + M_PPi + M_PEP + M_AMP 
+R5PDPK_h	M_ATP + M_R5P <=> M_H + M_PRPP + M_AMP 
+R5PI_h	M_R5P --> M_Ru5P 
+RBC_h	M_H2O + M_RuBP + M_CO2 <=> M_H + M_H + M_PGA + M_PGA 
+RBO_h	M_O2 + M_RuBP <=> M_H + M_H + M_PGA + M_PGCA 
+RibK_h	M_ATP + M_Rib <=> M_H + M_ADP + M_R5P 
+Ru5PE_h	M_X5P --> M_Ru5P 
+Ru5PK_h	M_ATP + M_Ru5P <=> M_H + M_ADP + M_RuBP 
+rxn_Ids	rxn_formulas_with_cmp 
+S6PPh_c	M_H2O + M_S6P <=> M_Pi + M_Suc 
+S6PS_c	M_F6P + M_UDPG <=> M_S6P + M_UDP 
+SADH_h	M_H + M_NADPH + M_DHS <=> M_NADP + M_SA 
+SAICARS_h	M_ATP + M_Asp + M_CAIR <=> M_H + M_ADP + M_Pi + M_SAICAR 
+SAK_h	M_ATP + M_SA <=> M_H + M_ADP + M_S3P 
+SBPA_h	M_DHAP + M_E4P <=> M_SBP 
+SBPase_h	M_H2O + M_SBP <=> M_Pi + M_S7P 
+SCACoAL_m	M_S-CoA + M_ADP + M_Pi <=> M_CoA + M_SCA + M_ATP 
+SCASeADH_m	M_NAD + M_H2O + M_SCA-SeA <=> M_H + M_H + M_NADH + M_SCA 
+SerAcT_c	M_A-CoA + M_Ser <=> M_CoA + M_A-Ser 
+SerAcT_h	M_A-CoA + M_Ser <=> M_CoA + M_A-Ser 
+SerAcT_m	M_A-CoA + M_Ser <=> M_CoA + M_A-Ser 
+SerRM_c	M_Ser <=> M_Pyr + M_NH4 
+SGAT_h	M_Ser + M_GLX <=> M_Gly + M_HPR 
+SGAT_p	M_GLX + M_Ser <=> M_Gly + M_HPR 
+Si_H	M_H 
+SO3R_h	M_H + M_H + M_H + M_H + M_H + M_H + M_H + M_Fdrd + M_Fdrd + M_Fdrd + M_SO3 <=> M_H2O + M_H2O + M_H2O + M_Fdox + M_Fdox + M_Fdox + M_H2S 
+STK_h	M_GAP + M_S7P --> M_X5P + M_R5P 
+StP1_h	M_Pi + M_starch2 <=> M_G1P + M_starch1 
+StP21_c	M_starch2 + M_Pi <=> M_starch1 + M_G1P 
+StS_h1	M_H2O + M_ADPG <=> M_H + M_ADP + M_starch1 
+StS_h2	M_ADPG + M_starch1 <=> M_H + M_ADP + M_starch2 
+StS_h3	M_ADPG + M_starch2 <=> M_H + M_ADP + M_starch3 
+SucS_c	M_UDP + M_Suc --> M_UDPG + M_Frc 
+TA_h	M_GAP + M_S7P --> M_F6P + M_E4P 
+ThrA_c	M_Thr <=> M_ACD + M_Gly 
+ThrDA_h	M_Thr <=> M_NH4 + M_OB 
+ThrS_h	M_H2O + M_PH-Ser <=> M_Pi + M_Thr 
+TPI_c	M_GAP --> M_DHAP 
+TPI_h	M_GAP --> M_DHAP 
+TPP_c	M_H2O + M_T6P <=> M_Pi + M_Tre 
+TPS_c	M_G6P + M_UDPG <=> M_UDP + M_T6P 
+Tr_AAC	M_ADP + M_Pi + M_ATP <=> M_ATP + M_ADP + M_Pi 
+Tr_AC1	M_AC --> M_AC 
+Tr_AC2	M_AC --> M_AC 
+Tr_Ala1	M_Ala --> M_Ala 
+Tr_Ala2	M_Ala <=> M_Ala 
+Tr_Arg1	M_Arg --> M_Arg 
+Tr_Arg2	M_Arg <=> M_Arg 
+Tr_Asn1	M_Asn --> M_H + M_Asn 
+Tr_Asn2	M_Asn <=> M_H + M_Asn 
+Tr_Asn3	M_Asn <=> M_Asn 
+Tr_Asp	M_Asp --> M_Asp 
+Tr_BAC1	M_Arg + M_His <=> M_Arg + M_His 
+Tr_BAC2	M_Arg + M_Lys <=> M_Arg + M_Lys 
+Tr_BAT11	M_Ala --> M_Ala 
+Tr_BAT12	M_Arg --> M_Arg 
+Tr_BAT13	M_Glu --> M_Glu 
+Tr_BAT14	M_Lys --> M_Lys 
+Tr_BAT15	M_GABA --> M_GABA 
+Tr_BT11	M_AMP <=> M_AMP 
+Tr_BT12	M_ADP <=> M_ADP 
+Tr_BT13	M_ATP <=> M_ATP 
+Tr_CO2h	M_CO2 --> M_CO2 
+Tr_CO2m	M_CO2 --> M_CO2 
+Tr_Cys	M_Cys --> M_Cys 
+Tr_DHO1	M_DHO <=> M_DHO 
+Tr_DHO2	M_DHO <=> M_DHO 
+Tr_DIC1	M_Mal + M_Pi --> M_Pi + M_Mal 
+Tr_DIC2	M_Pi + M_SCA --> M_Pi + M_SCA 
+Tr_DIT1	M_Mal + M_KG <=> M_Mal + M_KG 
+Tr_DIT2	M_Mal + M_Glu <=> M_Mal + M_Glu 
+Tr_DTC1A	M_Cit + M_KG --> M_KG + M_Cit 
+Tr_DTC1B	M_iCit + M_KG --> M_KG + M_iCit 
+Tr_DTC1C	M_cACN + M_KG --> M_KG + M_cACN 
+Tr_DTC2A	M_Mal + M_Cit --> M_Mal + M_Cit 
+Tr_DTC2B	M_Mal + M_iCit --> M_Mal + M_iCit 
+Tr_DTC2C	M_Mal + M_cACN --> M_Mal + M_cACN 
+Tr_DTC3A	M_OAA + M_Cit --> M_OAA + M_Cit 
+Tr_DTC3B	M_OAA + M_iCit --> M_OAA + M_iCit 
+Tr_DTC3C	M_OAA + M_cACN --> M_OAA + M_cACN 
+Tr_DTC4A	M_Cit + M_SCA --> M_SCA + M_Cit 
+Tr_DTC4B	M_iCit + M_SCA --> M_SCA + M_iCit 
+Tr_DTC4C	M_cACN + M_SCA --> M_SCA + M_cACN 
+Tr_Fum	M_Fum <=> M_Fum 
+Tr_GCA1	M_GCA <=> M_GCA 
+Tr_GCA2	M_GCA --> M_GCA 
+Tr_GCEA1	M_GCEA <=> M_GCEA 
+Tr_GCEA2	M_GCEA --> M_GCEA 
+Tr_Gln	M_Gln --> M_H + M_Gln 
+Tr_Glu1	M_Glu --> M_Glu 
+Tr_Glu2	M_Glu <=> M_Glu 
+Tr_Gly	M_Gly --> M_Gly 
+Tr_GlySer	M_Ser + M_Gly <=> M_Gly + M_Ser 
+Tr_GPT1	M_Pi + M_G6P <=> M_G6P + M_Pi 
+Tr_H2Oh	M_H2O --> M_H2O 
+Tr_H2Om	M_H2O --> M_H2O 
+Tr_H2Op	M_H2O --> M_H2O 
+Tr_H2S1	M_H2S --> M_H2S 
+Tr_H2S2	M_H2S --> M_H2S 
+Tr_HCys	M_H-Cys <=> M_H-Cys 
+Tr_His1	M_His --> M_His 
+Tr_His2	M_His <=> M_His 
+Tr_His3	M_His <=> M_His 
+Tr_Hp	M_H --> M_H 
+Tr_Ile1	M_Ile --> M_Ile 
+Tr_Ile2	M_Ile <=> M_Ile 
+Tr_Ile3	M_Ile <=> M_Ile 
+Tr_KG	M_KG --> M_KG 
+Tr_Leu1	M_Leu --> M_Leu 
+Tr_Leu2	M_Leu <=> M_Leu 
+Tr_Leu3	M_Leu <=> M_Leu 
+Tr_Lys1	M_Lys --> M_Lys 
+Tr_Lys2	M_Lys <=> M_Lys 
+Tr_Mal	M_Mal --> M_Mal 
+Tr_Met1	M_Met --> M_Met 
+Tr_Met2	M_Met <=> M_Met 
+Tr_Met3	M_Met <=> M_Met 
+Tr_Mex1	M_Mas <=> M_Mas 
+Tr_NDT1	M_NAD + M_AMP --> M_NAD + M_AMP 
+Tr_NDT2	M_ADP + M_NAD --> M_ADP + M_NAD 
+Tr_NH41	M_NH4 --> M_NH4 
+Tr_NH42	M_NH4 --> M_NH4 
+Tr_NO2	M_NO2 <=> M_NO2 
+Tr_NTT	M_ADP + M_Pi + M_ATP <=> M_ATP + M_ADP + M_Pi 
+Tr_O2h	M_O2 --> M_O2 
+Tr_O2m	M_O2 --> M_O2 
+Tr_O2p	M_O2 --> M_O2 
+Tr_OAA	M_OAA --> M_OAA 
+Tr_ORO	M_ORO <=> M_ORO 
+Tr_P5C1	M_P5C <=> M_P5C 
+Tr_P5C2	M_P5C <=> M_P5C 
+Tr_pGlc	M_Glc <=> M_Glc 
+Tr_Phe1	M_Phe --> M_Phe 
+Tr_Phe2	M_Phe <=> M_Phe 
+Tr_Phe3	M_Phe <=> M_Phe 
+Tr_PLT5	M_Rib <=> M_Rib 
+Tr_PPT	M_Pi + M_PEP <=> M_Pi + M_PEP 
+Tr_Pro1	M_Pro --> M_Pro 
+Tr_Pro2	M_Pro <=> M_Pro 
+Tr_ProA	M_Glu + M_Pro <=> M_Glu + M_Pro 
+Tr_ProU	M_Pro <=> M_Pro 
+Tr_PRPP	M_H + M_PRPP <=> M_PRPP 
+TrpS_h	M_Ser + M_Ind <=> M_H2O + M_Trp 
+Tr_Pyr1	M_Pyr --> M_Pyr 
+Tr_Pyr2	M_Pyr --> M_Pyr 
+Tr_Pyr3	M_Pyr --> M_Pyr 
+Tr_Ser1	M_Ser --> M_Ser 
+Tr_Ser2	M_Ser <=> M_Ser 
+Tr_Ser3	M_Ser <=> M_Ser 
+Tr_SFC	M_Fum + M_SCA <=> M_SCA + M_Fum 
+Tr_SO4	M_SO4 --> M_SO4 
+Tr_Thr1	M_Thr --> M_Thr 
+Tr_Thr2	M_Thr <=> M_Thr 
+Tr_Thr3	M_Thr <=> M_Thr 
+Tr_TPT1	M_PGA + M_Pi --> M_Pi + M_PGA 
+Tr_TPT2	M_GAP + M_Pi --> M_Pi + M_GAP 
+Tr_TPT3	M_DHAP + M_Pi --> M_Pi + M_DHAP 
+Tr_Trp1	M_Trp --> M_Trp 
+Tr_Trp2	M_Trp <=> M_Trp 
+Tr_Trp3	M_Trp <=> M_Trp 
+Tr_Tyr1	M_Tyr --> M_Tyr 
+Tr_Tyr2	M_Tyr <=> M_Tyr 
+Tr_Tyr3	M_Tyr <=> M_Tyr 
+Tr_Val1	M_Val --> M_Val 
+Tr_Val2	M_Val <=> M_Val 
+Tr_Val3	M_Val <=> M_Val 
+TRXR_c	M_NADPH + M_TRXox <=> M_NADP + M_TRXrd 
+UDPK_c	M_ATP + M_UDP <=> M_ADP + M_H + M_UTP 
+UDPR_c	M_UDP + M_TRXrd <=> M_H2O + M_TRXox + M_dUDP 
+UGPase_c	M_H + M_G1P + M_UTP --> M_UDPG + M_PPi 
+Urease_m	M_H + M_H2O + M_urea <=> M_CO2 + M_NH4 + M_NH4 
